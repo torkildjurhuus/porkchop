@@ -1,4 +1,4 @@
-import porkchop from "./img/kotelett_cutout-min.png";
+import porkchop from "./img/kotelett_cutout-compressed.png";
 import "./App.css";
 
 var day = new Date().getDay();
