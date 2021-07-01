@@ -7,10 +7,13 @@
   pointer-events: none;
 }
 
-.Header-title {
-  font-size: 70px;
-  font-weight: 800;
+@media only screen and (max-width: 600px) {
+  .Header-title {
+    font-size: 50px;
+    font-weight: 800;
+  }
 }
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
